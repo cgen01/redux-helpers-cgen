@@ -1,3 +1,3 @@
 import createAction from './actions'
 
-module.exports = {createAction}
+export default {createAction}
