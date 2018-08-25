@@ -1,5 +1,5 @@
 {
-  "name": "redux-helpers",
+  "name": "redux-helpers-cgen",
   "version": "0.1.0",
   "description": "Commonly used Redux boilerplate code into one library!",
   "main": "dist/index.js",
