@@ -6,6 +6,4 @@ function createAction(name) {
   }
 }
 
-export default {
-  createAction,
-}
+export {createAction}
