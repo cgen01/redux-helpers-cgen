@@ -20,6 +20,14 @@
   ],
   "author": "Tyler Candee <tyler@candeegenerations.com> (https://candeegenerations.com/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgen01/redux-helpers-cgen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cgen01/redux-helpers-cgen/issues"
+  },
+  "homepage": "https://github.com/cgen01/redux-helpers-cgen",
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^5.4.0",
