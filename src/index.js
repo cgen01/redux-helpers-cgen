@@ -1,9 +1,3 @@
-function createAction(name) {
-  return {
-    REQUEST: `${name}_REQUEST`,
-    SUCCESS: `${name}_SUCCESS`,
-    ERROR: `${name}_ERROR`,
-  }
-}
+import createAction from './actions'
 
-export {createAction}
+module.exports = {createAction}

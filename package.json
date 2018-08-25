@@ -7,7 +7,8 @@
     "build": "kcd-scripts build",
     "lint": "eslint src",
     "precommit": "lint-staged",
-    "setup": "npm install"
+    "setup": "npm install",
+    "prepublish": "npm run build"
   },
   "files": [
     "dist"
