@@ -15,4 +15,4 @@ function handleLoading(loadingState, {field, loading}) {
   return updateLoadingState
 }
 
-export default {createAction, deepCopy, handleLoading, merge}
+export {createAction, deepCopy, handleLoading, merge}
