@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "kentcdodds",
+  "rules": {
+    "camelcase": "off",
+    "no-console": "warn",
+    "import/no-cycle": "off",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-uses-react": "error",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {},
+      "webpack": {
+        "extensions": [".js", ".jxs"]
+      }
+    }
+  },
+  "plugins": ["import", "react"]
+}
