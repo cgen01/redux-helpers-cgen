@@ -1,4 +1,4 @@
-import merge from 'deepmerge'
+const merge = require('deepmerge')
 
 const deepCopy = obj => merge(obj, {})
 
